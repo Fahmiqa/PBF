@@ -21,7 +21,21 @@ code .
 
 *Soal 2*
 Pada struktur project tersebut, jelaskan kegunaan folder dan file masing-masing tersebut!
-
+1. Git : folder yg berarti sudah ada tools dimana digunakan untuk mengelola versi source code program 
+2. next. : framework untuk React.js
+3. img : folder memuat image
+4. node_modules : directory dibuat oleh npm dan jalan untuk tracking setiap package yg telah diinstal di json
+5. src memiliki konfigurasi file 
+6. .estlintcr : salah satu file yang akan dicari ESLint untuk konfigurasinya, dan juga yang memiliki prioritas tertinggi
+7. gitnigore :  cara git untuk mengabaikan file yang dimasukan dalam daftar .gitignore agar tidak diikut sertakan pada proses git push
+8. next.config : file konfigurasi yang digunakan dalam aplikasi Next.js untuk menyesuaikan perilaku sistem build Next.js
+9. next-env.d : dibuat di root proyek File ini memastikan tipe Next.js diambil oleh kompiler TypeScript
+10. package : terdapat package dari proyek
+11. package.lock : file kunci yang menyimpan informasi tentang dependensi atau paket yang diinstal untuk proyek node.js
+12. postcss.config.js : alat Node.js yang mengubah gaya Anda menggunakan plugin JavaScript.
+13. README : Terdapat jawaban serta praktikum
+14. tailwind.config : di root proyek tempat dapat menentukan penyesuaian apa pun termasuk tampilan
+15. tsconfig : objek bersarang yang berisi aturan yang harus diterapkan oleh kompiler TypeScript
 
 Langkah 4: Run
 npm run dev
