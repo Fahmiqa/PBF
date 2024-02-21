@@ -17,10 +17,10 @@ Import alias : impor standar yang menggunakan nama yang ditentukan dalam modul p
 Langkah 3: Buka dengan VS Code
 cd hello-world
 code .
-![]
 
 *Soal 2*
 Pada struktur project tersebut, jelaskan kegunaan folder dan file masing-masing tersebut!
+![FF](/img/File%20dan%20Folder.png)
 1. Git : folder yg berarti sudah ada tools dimana digunakan untuk mengelola versi source code program 
 2. next. : framework untuk React.js
 3. img : folder memuat image
