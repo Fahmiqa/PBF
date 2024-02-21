@@ -33,3 +33,16 @@ Gantilah teks pada bagian atas dengan Nama - NIM Anda.
 Ketika Anda telah berhasil mengganti teks tersebut, Anda tidak perlu menjalankan perintah npm run dev dan tidak juga diperlukan me-reload halaman di browser. Tiba-tiba perubahan itu tampil, Mengapa terjadi demikian? Jelaskan!
 penggunaan npm run dev digunakan dalam pengembangan perangkat lunak untuk menjalankan serve pengembangan lokal secara otomatis, ini dikarenakan mengunakan alat seperti reactJS secara otomatis.
 
+Cobalah buat project react lainnya dengan menggunakan framework Remix dan Gatsby.
+![G2](/img/Gatsby%20(2).png)
+![G](/img/Gatsby.png)
+![R2](/img/Remix%20(2).png)
+![R](/img/Remix.png)
+
+Perbedaannya diantara ketiga framework tersebut :
+- Next.js menonjol sebagai kerangka kerja yang paling matang dan mapan. Dengan basis pengguna yang lebih besar, dokumentasi yang luas, dan dukungan komunitas yang kuat, Next.js adalah pilihan yang dapat diandalkan. Ini juga mendukung situs statis dan dinamis, menjadikannya solusi yang cocok untuk berbagai kasus penggunaan.
+- Kesederhanaan, kecepatan, dan pengaturan minimal , Remix mungkin merupakan pilihan yang lebih sesuai. Meskipun masih dalam tahap pengembangan dan belum memiliki banyak contoh serta kasus penggunaan, aplikasi ini mendapatkan tanggapan positif dari para pengembang dan menunjukkan harapan di masa depan.
+- Gatsby, menjadi pilihan yang lebih cepat dan ringan karena kemampuan pembuatan situs statisnya.
+
+
+
