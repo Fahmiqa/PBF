@@ -1,5 +1,7 @@
 const person = {
     name: 'Gregorio Y. Zara',
+    imageId: '7vQD0fP',
+    imageSize: 'b',
     theme: {
         backgroundColor: 'black',
         color: 'pink'
