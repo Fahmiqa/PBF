@@ -40,3 +40,16 @@ Komponen MyGallery ini berisi dua markup yang sama persis. Ekstraklah menjadi ko
 
 ![MG](/praktikum/praktikum3/img/mygallery.png)
 
+*Soal 8*
+
+![MPnF](/praktikum/praktikum3/img/myprofile%20no%20fix.png)
+Jika kode di atas terdapat error, silakan diperbaiki.
+![MPnF](/praktikum/praktikum3/img/myprofile.png)
+
+*Soal 9*
+
+![MP2nF](/praktikum/praktikum3/img/mygallery%20no%20fix.png)
+
+Jika kode di atas terdapat error, silakan diperbaiki.
+
+![MPnF](/praktikum/praktikum3/img/myprofile%20v2.png)
