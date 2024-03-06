@@ -2,10 +2,12 @@
 
 Ubah isi kode Home() sehingga dapat tampil seperti berikut dengan memanfaatkan komponen Profile() yang tadi sudah dibuat dari langkah 1 tersebut!
 ![P](/praktikum/praktikum3/img/Profile.png)
+![P](/praktikum3/img/Profile.png)
 
 *Soal 2*
 
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+posisi gambar menjadi lebih dekat
 ![G](/praktikum/praktikum3/img/Gallery.png)
 
 *Soal 3*
