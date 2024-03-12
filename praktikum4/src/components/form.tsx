@@ -59,7 +59,7 @@ export default function Form() {
 }
 
 function submitForm(Jawaban) {
-    // Anggap kode ini melakukan request ke jaringan.
+    // Anggap kode ini melakukan *request* ke jaringan.
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             let shouldError = Jawaban.toLowerCase() !== 'tikus'
@@ -74,11 +74,13 @@ function submitForm(Jawaban) {
 
 
 
+
+
 export function Form_2() {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     // const [fullName, setFullName] = useState('');
-    const fullName = firstName + '  ' + lastName
+    const fullName =firstName+ ' '+lastName;
 
     function handleFirstNameChange(e) {
         setFirstName(e.target.value);

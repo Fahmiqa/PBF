@@ -1,45 +1,64 @@
-export function Tombol_2({isiPesan, namaTombol}){
+export function Tombol_2({ isiPesan, namaTombol }) {
     return (
         <button
-            className="bg-blue-500 hover:bg-red-500 text-white p-2 rounded"
-            onClick={()=> alert(isiPesan)}>
-            {namaTombol}    
-            </button>
+            className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded "
+            onClick={() => alert(isiPesan)}>
+            {namaTombol}
+        </button>
     );
 }
 
-export function Tombol_3({isiPesan, namaTombol}){
+export function Tombol_3({ isiPesan, namaTombol }) {
     return (
         <button
-            className="bg-green-400 hover:bg-green-700 text-white p-2 rounded"
-            onClick={()=> {
-                    e.stopPropagation();
-                    alert(isiPesan)
-                }
-            }>
-            {namaTombol}    
-            </button>
+            className="bg-green-500 hover:bg-green-700 text-white p-2 rounded "
+            onClick={() => {
+                // e.stopPropagation();
+                alert(isiPesan)
+            }}>
+            {namaTombol}
+        </button>
     );
 }
 
-export default function Tombol_1 (){
-    function handleClick(){
-        alert("Tombol telah ditekan");
+export default function Tombol_1() {
+    function handleClick() {
+        alert("Tombol telah ditekan!!!");
     }
-    function handleMouseOver(){
-        alert("Tombol rusak!!!");
+    function handleMouseOver() {
+        alert("Eits, mau mencet tombol ya?");
     }
-    return(
+    return (
         <button
-            className="bg-blue-500 hover:bg-red-700 text-white p-2 rounded "
+            className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded "
             onClick={handleClick}
             // onMouseOver={handleMouseOver}
-            onMouseLeave={()=>
-            alert("Uwes tah!!!!!")
+            onMouseLeave={() =>
+                alert("Loh, Kok sudah pergi!!!")
             }
-        
-            >
-                Tombol
-            </button>
+        >
+            Ini Tombol
+        </button>
     );
 }
+
+// export default function Tombol_1() {
+//     return (
+//         <button
+//             className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded "
+//         >
+//             Ini Tombol
+//         </button>
+//     );
+// }
+
+
+// export function Tombol_2({ isiPesan, namaTombol }) {
+//     return (
+//         <button
+//             className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded "
+//             onClick={() => alert(isiPesan)}>
+//             {namaTombol}
+//         </button>
+//     );
+// }
