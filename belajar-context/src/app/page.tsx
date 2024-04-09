@@ -1,7 +1,14 @@
-"use client"
+"use client";
+import MyApp from "@/components/atoms/myapp";
 import MainPage from "@/components/templates/main_page";
-import { use } from "react";
 
 export default function Home() {
-  return <MainPage/>
+  return <MyApp Component={MainPage} pageProps={undefined} />
+  // ( 
+//     <>
+//       <MainPage/>
+//       <hr/>
+//       <ProfilePage />
+//     </>
+//   );
 }
